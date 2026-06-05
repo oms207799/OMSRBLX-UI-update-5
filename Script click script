@@ -1,0 +1,95 @@
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "OMS scripts",
+   LoadingTitle = "welcome",
+   LoadingSubtitle = "Loaded Successfully",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = "scripts",
+      FileName = "scripts"
+   },
+   Discord = {
+      Enabled = false,
+      RememberJoins = true
+   },
+   KeySystem = false,
+})
+local Tab = Window:CreateTab("scripts", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("scripts")
+local Button = Tab:CreateButton({
+   Name = "fly",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fly-45749"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "teleport",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toolbox231/Toolbox231/refs/heads/main/xz.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "touch fling",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-Touch-fling-27515"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "fe kill player",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/DeviousGroup/local/refs/heads/main/killgui.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "more soon",
+   Callback = function()
+   end,
+})
+local Tab = Window:CreateTab("Minecraft", 129804020) -- Title, Image
+local Section = Tab:CreateSection("Minecraft")
+local Button = Tab:CreateButton({
+   Name = "Minecraft ui",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZynixMoz/SkyeMoz/refs/heads/main/MozCraft/Main"))()
+   end,
+})
+local Tab = Window:CreateTab("coolkd", 126100858315781994) -- Title, Image
+local Section = Tab:CreateSection("coolkid")
+local Button = Tab:CreateButton({
+   Name = "coolkid ui",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/main/c00lguiv3rx.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "coolkid hats",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty2.lua"))()
+   end,
+})
+local Tab = Window:CreateTab("guis", 126100858315781994) -- Title, Image
+local Section = Tab:CreateSection("guis")
+local Button = Tab:CreateButton({
+   Name = "DR_Team GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/DRTeamOficial/DR_Team-gui/main/DR_Team%20gui"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "KS4x GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://github.com/ks4xzyx-spec/KS4x/raw/refs/heads/main/KS4xLoader.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "more soon",
+   Callback = function()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "more soon",
+   Callback = function()
+   end,
+})
