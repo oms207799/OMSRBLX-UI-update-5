@@ -71,7 +71,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys
 local Tab = Window:CreateTab("guis", 126100858315781994) -- Title, Image
 local Section = Tab:CreateSection("guis")
 local Button = Tab:CreateButton({
-   Name = "DR_Team GUI",
+   Name = "DR_Team GUI code mateo",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/DRTeamOficial/DR_Team-gui/main/DR_Team%20gui"))()
    end,
@@ -92,10 +92,10 @@ local Button = Tab:CreateButton({
    Callback = function()
    end,
 })
-local Tab = Window:CreateTab("prison life", 126100858315781994) -- Title, Image
+local Tab = Window:CreateTab("prison life", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("prison life")
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "prison life",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/f34p9fh3a4/.xyz/refs/heads/main/loader.lua"))()
    end,
@@ -110,6 +110,35 @@ local Button = Tab:CreateButton({
    Callback = function()
    end,
 })
-local Tab = Window:CreateTab("gui codes", 126100858315781994) -- Title, Image
-local Section = Tab:CreateSection("gui codes")
-local Label = Tab:CreateLabel("DR_Team code mateo", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Tab = Window:CreateTab("backdoor", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("backdoor")
+local Button = Tab:CreateButton({
+   Name = "backdoor",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script"))()
+   end,
+})
+local Tab = Window:CreateTab("brookhaven", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("brookhaven")
+local Button = Tab:CreateButton({
+   Name = "brookhaven dark",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+   end,
+})
+local Tab = Window:CreateTab("99 nights", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("99 nights")
+local Button = Tab:CreateButton({
+   Name = "99 nights",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/99%20Nights%20In%20The%20Forest%20GUI'))()
+   end,
+})
+local Tab = Window:CreateTab("tsb", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("tsb")
+local Button = Tab:CreateButton({
+   Name = "tsb",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/The%20Strongest%20Battlegrounds%20GUI'))()
+   end,
+})
