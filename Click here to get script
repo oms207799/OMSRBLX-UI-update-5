@@ -42,8 +42,9 @@ local Button = Tab:CreateButton({
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "more soon",
+   Name = "fe admin",
    Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/UAP.lua'), true)()
    end,
 })
 local Tab = Window:CreateTab("Minecraft", 129804020) -- Title, Image
@@ -193,5 +194,13 @@ local Button = Tab:CreateButton({
    Name = "teleport place",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/GhsjqyYh"))()
+   end,
+})
+local Tab = Window:CreateTab("natural disasters", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("natural disasters")
+local Button = Tab:CreateButton({
+   Name = "natural disasters",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
    end,
 })
