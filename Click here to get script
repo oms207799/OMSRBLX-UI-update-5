@@ -205,12 +205,6 @@ local Button = Tab:CreateButton({
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "bring parts",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))("More Scripts: t.me/arceusxscripts")```
-   end,
-})
-local Button = Tab:CreateButton({
    Name = "super ring",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/VJGUd5Hd"))()
