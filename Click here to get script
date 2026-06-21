@@ -47,6 +47,26 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/UAP.lua'), true)()
    end,
 })
+local Tab = Window:CreateTab("scripts 2", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("scripts 2")
+local Button = Tab:CreateButton({
+   Name = "smooth first person camera",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "sonic",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "sonic exe",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/XCtZsGhP/raw"))()
+   end,
+})
 local Tab = Window:CreateTab("Minecraft", 129804020) -- Title, Image
 local Section = Tab:CreateSection("Minecraft")
 local Button = Tab:CreateButton({
